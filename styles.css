@@ -1,0 +1,356 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #2F2926;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* heading */
+.big_heading{
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 95px; /* 131.944% */
+  letter-spacing: 10.8px;
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.p1{
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.2px;
+}
+.heading{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: left;
+}
+.heading1{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+/* containers */
+.container-fluid {
+  padding: 10% 10%;
+}
+.container-fluid-u {
+  padding: 0 10% 10% 10%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-expand-lg .navbar-collapse{
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 10px;
+}
+.navbar-brand{
+  margin: 0 10rem;
+}
+.nav-link {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* title */
+#title .container-fluid{
+  padding: 2% 10% 5%;
+  text-align: center;
+}
+
+.hero{
+  background-size: cover;
+background-position: center;
+height: 850px;
+}
+
+/* Add these styles to your existing CSS */
+
+/* Search Box */
+.search-box {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 100px;
+  background-color: #D9D9D9;
+  opacity: 75%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(30, 30, 30, 0.75);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+/* Adjust position for responsiveness */
+@media (max-width: 768px) {
+  .search-box {
+    width: 90%;
+  }
+}
+
+.card_heading{
+  color: #2F2926;
+text-align: center;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lu-cards-heading{
+  color: #2F2926;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lu-cards-subheading{
+  color: #2F2926;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.card_subheading{
+  color: #2F2926;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 2rem;
+}
+.detail{
+  color: #2F2926;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.custom-carousel {
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    opacity: 75%;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+/* Customize the carousel cards */
+.carousel-card {
+    background: none;
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid #ccc; /* Add a right border to separate the cards */
+}
+
+/* Style the card image */
+.card-img-top {
+  width: 60%;
+    margin: 0 auto;
+}
+
+.button{
+  border: none;
+  background-color: #2F2926;
+  opacity: 50%;
+  color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding: 10px 30px;
+margin-top: 1rem;
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: rgba(217, 217, 217, 0.75);
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+
+  .logos-slide img {
+    margin: 0 40px;
+  }
+
+  .container{
+  	max-width: 1170px;
+  	margin:auto;
+  }
+  .row{
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+  ul{
+  	list-style: none;
+  }
+  .footer{
+  	background-color: #AEADAC;
+      padding: 70px 0;
+      text-align: left;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+  	font-size: 18px;
+  	color: #ffffff;
+  	text-transform: capitalize;
+  	margin-bottom: 35px;
+  	font-weight: 500;
+  	position: relative;
+  }
+  .footer-col h4::before{
+  	content: '';
+  	position: absolute;
+  	left:0;
+  	bottom: -10px;
+  	background-color: #FF8743;
+  	height: 2px;
+  	box-sizing: border-box;
+  	width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+  	margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+  	font-size: 16px;
+  	text-transform: capitalize;
+  	color: #ffffff;
+  	text-decoration: none;
+  	font-weight: 300;
+  	color: black;
+  	display: block;
+  	transition: all 0.3s ease;
+  }
+  .hui{
+    padding: 0;
+  }
+  .footer-col ul li a:hover{
+  	color: #ffffff;
+  	padding-left: 8px;
+  }
+  .footer-col .social-links a{
+  	display: inline-block;
+  	height: 40px;
+  	width: 40px;
+  	background-color: rgba(255,255,255,0.2);
+  	margin:0 10px 10px 0;
+  	text-align: center;
+  	line-height: 40px;
+  	border-radius: 50%;
+  	color: #ffffff;
+  	transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+  	color: #24262b;
+  	background-color: #ffffff;
+  }
+
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
