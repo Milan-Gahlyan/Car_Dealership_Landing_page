@@ -1,4 +1,4 @@
-# WebWizardry
+# WebWizardry TEAM DETAILS
 
 TEAM MEMBER 1:
 
